@@ -2,7 +2,7 @@
 
 Convert EasyEDA components and part lists into KiCad libraries with a clean, mobile-friendly web interface — directly inside Home Assistant!
 
-![icon](icon.png)
+![logo](https://github.com/killerQueen69/easyeda-to-kicad-addon/blob/main/easyeda-to-kicad/logo.png)
 
 ---
 
