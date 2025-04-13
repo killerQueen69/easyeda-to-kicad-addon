@@ -1,0 +1,36 @@
+name: "EasyEDA to KiCad (Web)"
+version: "2.0"
+slug: "easyeda_to_kicad_web"
+description: "Enhanced EasyEDA to KiCad converter with file management"
+startup: application
+boot: auto
+hassio_api: false
+host_network: true
+ingress: true
+ingress_port: 7860
+panel_icon: mdi:chip
+panel_title: "EasyEDA2KiCad"
+options:
+  cleanup_days:
+    type: integer
+    default: 7
+    description: "Days to keep files before auto-delete"
+  disable_auto_cleanup:
+    type: boolean
+    default: false
+    description: "Disable automatic cleanup of old files"
+  page_size:
+    type: integer
+    default: 20
+    description: "Number of files per page"
+schema:
+  cleanup_days: "int?"
+  page_size: "int?"
+  disable_auto_cleanup: "bool?"
+map:
+  - config:rw
+  - share:rw
+arch:
+  - amd64
+  - aarch64
+  - armv7
