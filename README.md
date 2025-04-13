@@ -19,7 +19,21 @@ Convert EasyEDA components and part lists into KiCad libraries with a clean, mob
 
 ## 🧱 Installation
 
-### 🔌 Manual Method
+### 🔌 Easy Method
+
+1. Go to **Settings > Add-ons > Add-on Store**
+2. Click the **three dots (⋮)** in the top-right > **Repositories**
+3. Paste this URL and click **Add**:
+
+   ```
+   https://github.com/killerQueen69/easyeda-to-kicad-addon
+   ```
+
+4. The add-on will appear under “EasyEDA to KiCad Add-ons.” Click **Install** and **Start**.
+
+---
+
+### 🛠 Manual Method
 
 1. Copy this folder to your Home Assistant `addons` directory:
    ```
@@ -60,7 +74,7 @@ You can extend functionality by modifying `easyeda_to_kicad.py`.
 
 ## 🧑‍💻 Author
 
-Developed by [killerQueen](https://github.com/killerQueen69)
+Developed by [Yami](https://github.com/killerQueen69)
 
 ---
 
